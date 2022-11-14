@@ -6,6 +6,6 @@ public class Porshe implements Car{
 
     @Override
     public void stop() {
-        System.out.println("Jeep stops for 3.5s");
+        System.out.println("Porshe stops for 3.5s");
     }
 }
