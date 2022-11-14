@@ -1,17 +1,19 @@
 package factory.impl;
 
 import factory.interfaces.TransportFactory;
+import transport.impl.aircraft.TU154;
+import transport.impl.car.Niva;
 import transport.interfaces.Aircraft;
 import transport.interfaces.Car;
 
 public class RussianFactory implements TransportFactory {
     @Override
     public Car createCar() {
-        return null;
+        return new Niva();
     }
 
     @Override
     public Aircraft createAircraft() {
-        return null;
+        return new TU154();
     }
 }
