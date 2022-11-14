@@ -1,0 +1,14 @@
+https://javabegin.ru/courses/patterny-proektirovaniya-v-java-vvedenie/
+
+Бесплатный курс для начинающих. Рассматриваются 9 паттернов (по три на каждую группу - порождающих, структурных
+и поведенческих):
+
+* Singleton
+* Factory Method
+* Abstract Factory
+* Decorator
+* Adapter
+* Facade
+* Observer
+* State
+* Strategy
