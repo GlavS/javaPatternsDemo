@@ -17,6 +17,7 @@ public class Start {
         borderedWindow.draw();
         // Декорирование по условию
         // Очень легко добавлять новые объекты (добавим компонент Button)
+        // равно как и новые декораторы
         boolean needBorder = true; // Флаг
         if (needBorder) {
             window = new BorderDecorator(new Window());
