@@ -1,5 +1,6 @@
 package facade;
-
+//Фасад может реализовывать общий интерфейс, если нужно
+//В простом случае это обычный объект
 import parts.Doors;
 import parts.Ignition;
 import parts.Wheels;
