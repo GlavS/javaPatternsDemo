@@ -15,7 +15,7 @@ public class Client {
         texts.add("Text4");
         texts.add("Text5");
 
-        //Printer printer = new Printer();
+        //Printer printer = new Printer(); // этот объект понадобится в случае наследования.
         PrinterAdapter adapter = new PrinterAdapter();
         adapter.print(texts);
     }
