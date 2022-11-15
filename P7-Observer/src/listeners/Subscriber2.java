@@ -6,7 +6,7 @@ public class Subscriber2 implements ActionListener{
         if (message.equals("Hello")){
             System.out.printf("%s says \"Hello\" too!", this.getClass().getSimpleName());
         } else {
-            System.out.printf("%s ignores %s", this.getClass().getSimpleName(), message);
+            System.out.printf("%s ignores %s%n", this.getClass().getSimpleName(), message);
         }
 
     }

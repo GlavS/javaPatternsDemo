@@ -11,6 +11,10 @@ public class Start {
 
         publisher.addListener(sub1);
         publisher.addListener(sub2);
+        //добавлять слушатель можно, передавая лямбду
+        publisher.addListener(message -> {
+            System.out.printf("Third got message %s", message);
+        });
 
         publisher.createMessage("Goodbye");
 
