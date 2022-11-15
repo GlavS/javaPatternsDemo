@@ -37,7 +37,7 @@ public class Publisher implements PublisherInterface{
     }
 
     public void createMessage(String message){ // рассылка нового сообщения
-        System.out.printf("Publisher made broadcast message: %s", message);
+        System.out.printf("Publisher made broadcast message: %s%n", message);
         notifySubscribers(message);
     }
 }
