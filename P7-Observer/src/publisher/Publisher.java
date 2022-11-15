@@ -7,7 +7,7 @@ import java.util.List;
 
 
 public class Publisher implements PublisherInterface{
-    private List<ActionListener> listeners = new ArrayList<>(); // список слушателей и методы манипуляции с ними
+    private final List<ActionListener> listeners = new ArrayList<>(); // список слушателей и методы манипуляции с ними
     @Override
     public List<ActionListener> getListeners() {
         return listeners;

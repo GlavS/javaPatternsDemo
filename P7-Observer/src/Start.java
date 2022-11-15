@@ -2,7 +2,6 @@ import listeners.ActionListener;
 import listeners.Subscriber1;
 import listeners.Subscriber2;
 import publisher.Publisher;
-import publisher.PublisherInterface;
 
 public class Start {
     public static void main(String[] args) {
@@ -13,7 +12,7 @@ public class Start {
         publisher.addListener(sub1);
         publisher.addListener(sub2);
 
-        publisher.createMessage("Hello all!");
+        publisher.createMessage("Goodbye");
 
     }
 }
