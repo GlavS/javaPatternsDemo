@@ -2,7 +2,7 @@ public class TestSingleton {
     private static TestSingleton instance;
 
     public static TestSingleton getInstance(){
-        if(instance == null){
+        if(instance == null){ // ленивая инициализация
             instance = new TestSingleton();
         }
         return instance;
