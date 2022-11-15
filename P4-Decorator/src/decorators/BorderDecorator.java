@@ -10,6 +10,6 @@ public class BorderDecorator extends Decorator{
 
     @Override
     public void afterDraw() {
-        System.out.println("Border added");
+        System.out.println("...Border added");
     }
 }

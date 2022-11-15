@@ -10,6 +10,6 @@ public class ColorDecorator extends Decorator{
 
     @Override
     public void afterDraw() {
-        System.out.println("Color added");
+        System.out.println("...Color added");
     }
 }
